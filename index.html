@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Responsive Personal Portfolio Website Design | Aditya</title>
+
+    <!-- Corrected Boxicons link -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Header/Navbar -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <!--<a href="#services">Services</a>-->
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Aditya Tile</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>
+                Turning complex ideas into elegant software — one line of code at a time. Passionate about building tools that empower people and shape the future of finance.
+              </p>
+                    
+
+            <div class="social-media">
+                <!--<a href="#"><i class='bx bxl-facebook'></i></a>-->
+                <a href="https://www.instagram.com/imadityatile"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/adityatile/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.reddit.com/user/Adityatile/"><i class='bx bxl-reddit'></i></a>
+            </div>
+
+            <a href="AdityaTileResume.pdf   " class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/It's me.jpg" alt="Aditya's Profile" />
+        </div>
+    </section>
+
+    <section class ="about" id="about">
+        <div class="about-img">
+            <img src="images/It's me.jpg" alt="Aditya Tile">
+          </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>.NET & Full Stack Developer</h3>
+            <ul>
+                <li><strong>Product Developer</strong> at <strong>IDBI Intech</strong>, working on enterprise-level banking solutions.</li>
+                <li>Experience with <strong>.NET Framework 4.5</strong> and <strong>ASP.NET Core MVC</strong>.</li>
+                <li>Skilled in front-end development using <strong>HTML, CSS, JavaScript</strong>.</li>
+                <li>Hands-on with <strong>Oracle Database</strong> and writing complex <strong>PL/SQL queries</strong>.</li>
+                <li>Involved in <strong>testing, debugging, publishing</strong>, and maintaining banking domain applications.</li>
+                <li>Currently exploring <strong>.NET MAUI</strong>, <strong>modern .NET Core practices</strong>, and <strong>Azure cloud services</strong>.</li>
+              </ul>
+              
+            
+            <a href="#portfolio" class="btn">View Projects</a>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+    
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>.NET / C#</h3>
+                <p>Web APIs, Background Services, WinForms, Entity Framework.</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bx-data'></i>
+                <h3>SQL & PL/SQL</h3>
+                <p>Stored Procedures, Triggers, Data Modeling, Query Tuning.</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-microsoft'></i>
+                <h3>MAUI / Xamarin</h3>
+                <p>Cross-platform UI, MVVM, App Lifecycle, Native APIs.</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML5</h3>
+                <p>Semantics, Forms, Accessibility, SEO-friendly code.</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS3</h3>
+                <p>Flexbox, Grid, Responsive Design, Animations.</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <p>DOM Manipulation, ES6+, AJAX, Libraries.</p>
+            </div>
+        </div>
+    </section>
+    
+ 
+    <!--   <section class="services" id="services">
+        <h2 class="heading"> Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+            <i class='bx bx-code' ></i>
+            <h3>Product Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Voluptate blanditiis consectetur dicta commodi ut quia sed possimus? 
+                Autem, doloribus aliquid?</p>
+                <a href="#" class="btn"> Read More</a>
+        </div>
+
+        <div class="services-box">
+        <i class='bx bx-code-block'></i>
+            <h3>PL-SQL Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Voluptate blanditiis consectetur dicta commodi ut quia sed possimus? 
+                Autem, doloribus aliquid?</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+        <i class='bx bx-mobile'></i>
+            <h3> MAUI Developer </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Voluptate blanditiis consectetur dicta commodi ut quia sed possimus? 
+                Autem, doloribus aliquid?</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+        <i class='bx bx-mobile'></i>
+            <h3> MAUI Developer </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Voluptate blanditiis consectetur dicta commodi ut quia sed possimus? 
+                Autem, doloribus aliquid?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+    </section>
+-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <!-- Project 1: MAUI Project -->
+            <div class="portfolio-box">
+              <img src="images/portfolio1.jpg" alt="MAUI Project">
+              <div class="portfolio-layer">
+                <h4>Math MIUI App</h4>
+                <p>A cross-platform MAUI application solving mathematical operations and quizzes.</p>
+                <div class="project-links">
+                  <!--<a href="#" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>-->
+                  <a href="https://github.com/AdityaTile78/MathMIUIProject.git" target="_blank" title="GitHub Repo"><i class='bx bxl-github'></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Project 2: PhoneBook EF -->
+            <div class="portfolio-box">
+              <img src="images/portfolio2.jpg" alt="Phone Book App">
+              <div class="portfolio-layer">
+                <h4>Phone Book EF</h4>
+                <p>A console-based CRUD application built using Entity Framework Code-First approach.</p>
+                <div class="project-links">
+                  <!--<a href="#" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>-->
+                  <a href="https://github.com/AdityaTile78/PhoneBookEF.git" target="_blank" title="GitHub Repo"><i class='bx bxl-github'></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Project 3: Fullstack Ecommerce -->
+            <div class="portfolio-box">
+              <img src="images/portfolio3.jpg" alt="SwadeshiHub Project">
+              <div class="portfolio-layer">
+                <h4>SwadeshiHub E-Commerce</h4>
+                <p>Fullstack ASP.NET e-commerce platform with user authentication, cart, and admin panel.</p>
+                <div class="project-links">
+                  <!--<a href="#" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>-->
+                  <a href="https://github.com/AdityaTile78/SwadeshiHub---ASP-Dot-Net-Project.git" target="_blank" title="GitHub Repo"><i class='bx bxl-github'></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Project 4: Food Donation -->
+            <div class="portfolio-box">
+              <img src="images/portfolio4.jpg" alt="Food Donation Project">
+              <div class="portfolio-layer">
+                <h4>Food Donation System</h4>
+                <p>A web platform that connects food donors and receivers, built using ASP.NET & SQL Server.</p>
+                <div class="project-links">
+                  <!--<a href="#" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>-->
+                  <a href="https://github.com/AdityaTile78/Food-Donation-Project.git" target="_blank" title="GitHub Repo"><i class='bx bxl-github'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+    
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+    
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" name="user_name" placeholder="Full Name" required>
+                <input type="email" name="user_email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="user_phone" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Aditya | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href=#home><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("NyM6rIi3Zd5oNLVKX"); // Replace with your Public Key
+        })();
+    </script>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
